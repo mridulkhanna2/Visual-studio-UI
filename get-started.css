@@ -1,0 +1,308 @@
+body{
+    background-color: rgb(29, 28, 28);
+    
+}
+
+  
+
+.container{
+    color: #bdbfc7;
+    height: 32px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;     
+    
+}
+
+#menu{
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+
+#menu-list{
+    display: flex;
+    align-items: center;
+}
+.center{
+    
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+
+
+/* Horizontal lists */
+
+.horizontal{
+	list-style: none;
+	padding-left: 0px;
+    display: flex;
+    flex-direction: row;  
+    
+}
+
+
+
+.horizontal li a{
+	
+	text-decoration: none;
+	font-size: 14px ;
+	margin-left:6px;
+    margin-right:6px;
+	color: white;
+	font-weight: 10;
+    vertical-align: middle;
+
+}
+
+.dropbtn{
+        
+        text-decoration: none;
+        font-size: 14px ;
+
+        color: white;
+        font-weight: 8;
+        vertical-align: middle;
+        border: none;
+    
+    }
+
+
+i{
+    height: 40px;
+    width: 20px;
+    padding: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.horizontal li:hover{
+	background-color: #616163;
+	transition: color 0.5s;
+}
+
+
+
+
+
+
+/* section 2 */
+
+
+
+.box{
+
+        display: flex;
+        flex-direction: row; 
+        
+        
+    
+}
+
+.container1{
+    background-color: #373738;
+}
+
+.sidenav{
+   
+    width:60px;
+    height: 88vh;
+
+}
+
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+  }
+
+  .sidenav ul li i {
+    display: flex;
+    color: rgb(236, 225, 225);
+    padding: 8px 16px;
+    height: 30px;
+
+  }
+
+  .bottom{
+      margin-top: 300px;
+  }
+
+
+
+.container2{
+    
+    display: flex;
+    flex-direction: column; 
+    
+    
+}
+
+.bar{
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    background-color: #232324;
+}
+
+/* Main box */
+
+.code{
+    display: flex ; 
+    flex-direction: row;
+    color: rgb(238, 234, 234);
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+
+.left-box{
+    
+    width: 50%;
+    margin: 20px 20px 20px 60px;
+
+
+}
+.right-box{
+    
+    width: 50%;
+    margin: 90px 60px 20px 20px;
+    font-size: 13px;
+
+
+}
+
+.rounded{
+    
+    padding: 15px;
+    padding-left: 25px;
+    border-radius: 10px;
+    background-color: #2b2c2c;
+    width: 400px;
+}
+
+
+.rounded:hover{
+    background-color: #373738;
+}
+
+i{
+    color: #bdbfc7;
+    height: 10px;
+}
+
+#options2{
+    margin-left: 840px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* Dropdown-Menu */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #272727;
+    width: 230px;
+    
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+    height: 16px;
+    font-size: 10px ;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(74, 120, 204);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover{background-color: #626662;}
+
+  .dropbtn{
+      background-color: inherit;
+      height: inherit;
+  }
+
+  .shortcuts{
+    text-align: right; 
+    justify-content: right;
+
+    
+  }
+
+  hr.new1 {
+    border-top: 0.1px solid white;
+  }
+
+
+/* FOOTER  */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(36, 123, 182);
+    color: white;
+    height: 20px;
+    font-size: 12px;
+    padding-left: 20px;
+
+}
+.left{
+    text-align: left;
+}
+
+.right-footer{
+    text-align: right;
+    margin-left: 720px;
+}
+
+/* Colors */
+
+.blue{
+    color: #3a75b8;
+}
+
+.faded-white{
+    color: rgb(199, 197, 197);
+    font-size: 15px;
+}
+
+.gray{
+    background-color: rgb(54, 52, 52);
+}
+ 
+.dark-gray{
+    background-color: rgb(39, 39, 39);
+}

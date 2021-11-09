@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Getting Started </title>
+
+    <link rel="stylesheet" type="text/css" href="./get-started.css">
+    
+</head>
+<body>
+    <header class="body-header">
+        
+        <!-- Top Navigation -->
+        <div class="container gray">
+        <div id="menu-list"> 
+
+            <span id="logo">
+                <img src="./images/logo.jpg" height="32px" width="32px">
+            </span>
+            
+            <span id="menu">
+                <ul class="horizontal left">
+                    <li>
+                    
+                    
+                    <div class="dropdown">
+                        <button class="dropbtn">File</button>
+                        <div class="dropdown-content">
+                        
+                          <a href="#">New File <span class="shortcuts">Ctrl+N </span> </a>
+
+                          <a href="#"> New Window <span class="shortcuts">Ctrl+Shift+N </span></a>
+                          <a href="#">New File... <span class="shortcuts">Ctrl+Alt+Windows+N </span></a>
+                          <hr class="new1">
+                          <a href="#">Open File... <span class="shortcuts">Ctrl+O </span></a>
+                          <a href="#">Open Folder... <span class="shortcuts">Ctrl+K Ctrl+O </span></a>
+                          <a href="#">Open Workspace from file... </a>
+                          <a href="#">Open Recent </a>
+                          <hr class="new1">
+                          <a href="#">Add folder to Workspace... </a>
+                          <a href="#">Save Workspace As...</a>
+                          <a href="#">Duplicate Workspace </a>
+                          <hr class="new1">
+                          <a href="#">Save<span class="shortcuts">Ctrl+S</span></a>
+                          <a href="#">Save As<span class="shortcuts">Ctrl+Shift+S</span></a>
+                          <hr class="new1">
+                          <a href="#">Auto Save</a>
+                          <a href="#">Preferences</a>
+                          <hr class="new1">
+                          <a href="#">Revert File <span class="shortcuts"></span></a>
+                          <a href="#">Close Editor <span class="shortcuts">Ctrl+F4 </span></a>
+                          <a href="#">Close Folder<span class="shortcuts">Ctrl+K F </span></a>
+                          <a href="#">Close Window <span class="shortcuts">Alt+F4 </span></a>
+                          <a href="#">Exit</a>
+                          
+
+                        </div>
+                      </div>
+                      </li>
+
+                    <li>
+                    
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Edit</button>
+                            <div class="dropdown-content">
+                              <a href="#">Undo <span class="shortcuts">Ctrl+Y </span> </a>
+                              <a href="#">Redo <span class="shortcuts">Ctrl+Z</span></a>
+                              <hr class="new1">
+                              <a href="#">Cut <span class="shortcuts">Ctrl+X </span></a>
+                              
+                              <a href="#">Copy <span class="shortcuts">Ctrl+C </span></a>
+                              <a href="#">Paste <span class="shortcuts">Ctrl+V </span></a>
+                              <hr class="new1">
+                              <a href="#">Find <span class="shortcuts">Ctrl+F </span></a>
+                              <a href="#">Replace <span class="shortcuts">Ctrl+H </span></a>
+                              <hr class="new1">
+                              <a href="#">Find in Files <span class="shortcuts">Ctrl+Shift+F </span></a>
+                              
+                              <a href="#">Replace in Files <span class="shortcuts">Ctrl+Shift+H </span></a>
+                              <hr class="new1">
+                              <a href="#">Toggle Line Comment<span class="shortcuts">Ctrl+/ </span></a>
+                              
+                              <a href="#">Toggle Block Comment <span class="shortcuts">Shift+Alt+A </span></a>
+                              <a href="#">Replace <span class="shortcuts">Ctrl+H </span></a>
+                           
+    
+                            </div>
+                          </div>
+
+                    </li>
+                    <li>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Selection</button>
+                            <div class="dropdown-content">
+                              <a href="#"> Select All <span class="shortcuts">Ctrl+A </span> </a>
+                              <a href="#"> Expand  <span class="shortcuts">Shift+Alt+RightArrow</span></a>
+                              <a href="#"> Shrink  <span class="shortcuts">Shift+Alt+LeftArrow</span></a>
+                              <hr class="new1">                              
+                              <a href="#">Copy Up <span class="shortcuts">Shift+Alt+UpArrow </span></a>
+                              <a href="#">Copy Down <span class="shortcuts">Shift+Alt+DownArrow </span></a>
+
+                              <a href="#"> Move Line Up<span class="shortcuts">Alt+UpArrow </span> </a>
+                              <a href="#"> Move Line Down <span class="shortcuts">Alt+DownArrow</span></a>
+                              <a href="#"> Duplicate Selection  <span class="shortcuts">Shift+Alt+LeftArrow</span></a>
+                              <hr class="new1">                              
+                              <a href="#">Add cursor above<span class="shortcuts">Ctrl+Alt+UpArrow </span></a>
+                              <a href="#">Add cursor below <span class="shortcuts">Ctrl+Alt+DownArrow </span></a>
+                              <a href="#">Add cursor to line ends<span class="shortcuts">Shift+Alt+I </span></a>
+                              <a href="#">Add next occurence <span class="shortcuts">Ctrl+D </span></a>
+                              <a href="#">Add previous occurence </a>
+                              <a href="#">Select all occurence <span class="shortcuts">Ctrl+Shift+L </span></a>
+    
+                            </div>
+                        </div>
+                       
+                    </li>
+                    <li>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">View</button>
+                            <div class="dropdown-content">
+                                <a href="#"> Command Palette <span class="shortcuts">Ctrl+Shift+P </span> </a>
+                                <a href="#"> Open view <span class="shortcuts">Shift+Alt+RightArrow</span></a>
+                                <hr class="new1">  
+                                <a href="#"> Appearance  </a>                         
+                                <a href="#"> Editor Layout </a>
+                                <hr class="new1">  
+                                <a href="#"> Explorer  <span class="shortcuts">Ctrl+Shift+E</span></a>                         
+                                <a href="#"> Search <span class="shortcuts">Ctrl+Shift+F </span></a>
+                                <a href="#"> SCM  <span class="shortcuts">Ctrl+Shift+G</span></a>                         
+                                <a href="#"> Run <span class="shortcuts">Ctrl+Shift+D </span></a>
+                                <a href="#"> Extensions <span class="shortcuts">Ctrl+Shift+X</span></a>                         
+                                <hr class="new1">  
+                                <a href="#"> Problem<span class="shortcuts">Ctrl+Shift+M </span></a>
+                                <a href="#"> Output<span class="shortcuts">Ctrl+Shift+U </span></a>
+                                <a href="#"> Debug Console<span class="shortcuts">Ctrl+Shift+Y </span></a>
+                                <a href="#"> Terminal<span class="shortcuts">Ctrl+` </span></a>
+                                <hr class="new1">  
+                                <a href="#"> Word wrap<span class="shortcuts">Alt+Z </span></a>
+                                <a href="#"> Show minimap</a>
+                                <a href="#"> Show breadcrumbs</a>
+                                <a href="#"> Render whitespace </a>
+                                <a href="#"> Render character controls</a>
+                              </div>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Go</button>
+                            <div class="dropdown-content">
+                              <a href="#"> Back <span class="shortcuts">Ctrl+Shift+P </span> </a>
+                              <a href="#"> Last Edit Location <span class="shortcuts">Ctrl+K Ctrl+Q</span></a>
+                              <hr class="new1">  
+                              <a href="#"> Switch Editor</a>                         
+                              <a href="#"> Switch group</a>
+                              <hr class="new1"> 
+                              <a href="#"> Go to file <span class="shortcuts">Ctrl+P </span></a>
+                              <a href="#"> Go to symbol in Workspace <span class="shortcuts">Ctrl+T </span></a>
+                              
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"> Run </button>
+                            <div class="dropdown-content">
+                              <a href="#"> Start debugging <span class="shortcuts">F5 </span> </a>
+                              <a href="#"> Run without debugging <span class="shortcuts">Ctrl+F5</span></a>
+                              <hr class="new1">  
+                              <a href="#"> Add configuration</a>                         
+                              
+                              <hr class="new1"> 
+                              <a href="#"> Toggle breakdown <span class="shortcuts">F9 </span></a>
+                              <a href="#"> New breakdown</a>
+                              
+                            </div>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"> Terminal </button>
+                            <div class="dropdown-content">
+                              <a href="#"> New terminal </a>
+                              <a href="#"> Run task </a>
+                              <hr class="new1">  
+                              <a href="#"> Run build task <span class="shortcuts">Ctrl+Shift+B</span></a>                         
+                              
+                              <hr class="new1"> 
+                              <a href="#"> Run active file</a>
+                              <a href="#"> Run selected text</a>
+
+                              <a href="#">Configure tasks</a>
+                              <a href="#">Configure default build tasks</a>
+                              
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"> Help </button>
+                            <div class="dropdown-content">
+                              <a href="#"> Get started </a>
+                              <a href="#"> Show all commands <span class="shortcuts">Ctrl+Shift+P</span></a>
+                                
+                              <a href="#"> Documentation</a>                         
+                              
+                               
+                              <a href="#"> Editor playground<span class="shortcuts">F9 </span></a>
+                              <a href="#"> Release Notes</a>
+                              <hr class="new1">
+                              <a href="#"> Keyboard shorcut reference<span class="shortcuts">F9 </span></a>
+                              <a href="#"> Video tutorials</a>
+                              
+                            </div>
+                        </div>
+                    </li>
+    
+                    
+                </ul>
+            </span>
+            
+        </div> 
+           
+
+            <span class="center">
+                Get Started - Visual Studio - Visual Studio Code 
+            </span>
+            
+       
+
+            <span>
+                <ul class="horizontal right">
+                    <li>
+                        <i class="far fa-window-minimize"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-window-maximize"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-times"></i>
+                    </li>
+                </ul>
+                
+            </span>
+
+        </div>
+    </header>
+
+
+
+
+
+    <section class="box">
+        <div class="container1">
+                
+            <div class="sidenav">
+                    <ul>
+                        <li><i class="far fa-copy"></i></li>
+                        <li><i class="fas fa-search"></i></li>
+                        
+                        <li><i class="fas fa-cubes"></i> </li>
+
+                        
+                    </ul>
+
+                    <div class="bottom">
+                        <ul>
+                            <li><i class="far fa-user-circle"></i></li>
+                            <li><i class="fas fa-cog"></i></li>
+                        </ul>
+                    </div>
+
+                
+                    
+                
+            </div>
+        </div>
+
+
+    <div class="container2">
+        <div class="bar">
+            <span class="dark-gray">
+                
+                    <img src="./images/logo.jpg" height="25px" width="25px"> <span style="color: rgb(199, 197, 197); font-size: 12px;">Get Started</span>
+                    <i class="fas fa-times"></i>
+                    
+            </span>
+                
+
+            <span id="options2">
+                <span class="horizontal right">
+                    
+                        <img src="./images/img1.png" height="30px" width="30px">
+                    
+                    
+                        <img src="./images/img2.png" height="30px" width="30px">
+                    
+                        <img src="./images/img3.png" height="30px" width="30px">
+                    
+                </span>
+            </span>
+            
+        </div>
+        
+        <div class="code">
+            
+            
+                <div class="left-box">
+
+                    <span >
+                        <span style="font-size: 35px; font-weight: 10px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Visual Studio Code </span><br>
+
+                        <span style="color: rgb(199, 197, 197);font-size: 25px;">Editing evolved</span>
+                        <br><br>
+                        <p style="font-size: 20px;color: rgb(199, 197, 197);">Start</p>
+                        <span class="blue"><i class="far fa-file"></i> New file..</span><br>
+                        <span class="blue"><i class="far fa-file"></i> Open file..</span><br>
+                        <span class="blue"><i class="far fa-envelope-open"></i></i></i> Open Folder..</span><br>
+                        <span class="blue"><i class="fas fa-code-branch"></i></i></i> Clone git repository..</span>
+
+                        <br><br>
+                        <p style="font-size: 20px;color: rgb(199, 197, 197);">Recent</p>
+
+                        <span class="blue">Downloads &nbsp; <span class="faded-white">&nbsp; C:\Users\mridul </span></span><br>
+                        <span class="blue">Microsoft VS Code &nbsp; <span class="faded-white">&nbsp; C:\Users\mridul\AppData\Local\Programs </span></span><br>
+                        <span class="blue">css &nbsp; <span class="faded-white">&nbsp; D:\Coding Ninja\MERN Stack\Frontend </span></span><br>
+    
+                        <span class="blue">More...</span>
+                        
+                    </span>
+                
+                
+
+
+                </div>
+
+                <div class="right-box">
+                   
+                        <p style="font-size: 16px;">Walkthroughs</p>
+                        
+                        <div class="rounded">
+                            <span style="font-weight: bold;"><i class="far fa-star"></i> Get started with VS Code</span> <br>
+                            Discover the best customization to make VS Code yours
+                        </div>
+                        <p></p>
+                        <div class="rounded">
+                            <span style="font-weight: bold;"><i class="far fa-star"></i> Learn the fundamentals</span> <br>
+                            Jump right into VS Code and get an overview of the must-have features.
+                        </div>
+                        <p></p>
+                        <div class="rounded">
+                            <span style="font-weight: bold;"><i class="fas fa-graduation-cap"></i>Boost your productivity</span>
+                        </div>
+                        <p></p>
+                        <div class="rounded">
+                            <span style="font-weight: bold;"><i class="fas fa-mug-hot"></i>Dive into java development </span>
+                        </div>
+                        <p></p>
+                        <div class="rounded">
+                            <span style="font-weight: bold;color: white;"><i class="fab fa-python"></i> Get started with python development</span>
+                        </div>
+
+                </div>
+        
+            
+        </div>  
+        
+        <div id="tick">
+            <p style="color:white;text-align: center; margin-bottom: 10px;"><i class="far fa-check-square"></i> Show welcome page on Startup</p>
+        </div>
+            
+        
+    </div>
+
+    
+
+</section>
+
+
+
+<div class="footer">
+    <span class="left">
+        main*
+        <i class="fas fa-file"></i>
+        <i class="fas fa-bars"></i>
+    </span>
+
+    <span class="right-footer">
+        Ln 12 , Col 6 &nbsp; Spaces:4 &nbsp;  UTF-8 &nbsp; CRLF &nbsp;  HTML &nbsp; Port : 5500 
+        <i class="fas fa-check-double"></i>
+        <i class="far fa-user"></i>
+        <i class="far fa-bell"></i>
+
+       
+    </span>
+    
+
+</div>
+
+
+</body>
+<script src="https://kit.fontawesome.com/33f3698be3.js" crossorigin="anonymous"></script>
+
+
+
+</html>
